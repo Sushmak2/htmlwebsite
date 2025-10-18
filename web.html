@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Black Sleek Website</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #000;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 80px;
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(8px);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      color: #8a2be2;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #;
+    }
+
+    .hero {
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: linear-gradient(to bottom right, #000, #0a0a0a, #001f33);
+    }
+
+    .hero h2 {
+      font-size: 3rem;
+      color: #00bfff;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      max-width: 600px;
+      color: #ccc;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      padding: 12px 25px;
+      background-color: #00bfff;
+      color: #000;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #fff;
+      color: #000;
+    }
+
+    section {
+      padding: 80px 100px;
+    }
+
+    .about, .services, .gallery, .contact {
+      text-align: center;
+    }
+
+    h3 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #00bfff;
+    }
+
+    .about p, .contact p {
+      color: #bbb;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .services .cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 30px;
+      border-radius: 15px;
+      width: 280px;
+      transition: 0.4s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 0 20px #00bfff;
+    }
+
+    .gallery .images {https://thumbs.dreamstime.com/b/web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-121903546.jpg
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 40px;
+    }
+
+    .gallery img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 15px;
+      transition: 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px #00bfff;
+    }
+
+    footer {
+      background: rgba(255, 255, 255, 0.05);
+      text-align: center;
+      padding: 20px;
+      color: #ccc;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        padding: 15px;
+      }
+
+      section {
+        padding: 50px 20px;
+      }
+
+      .services .cards {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Techinical event</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h2>Welcome to Our Event</h2>
+    <p>Experience creativity, innovation, and technology all in one place.</p>
+    <button class="btn">Learn More</button>
+  </section>
+
+  <section class="about" id="about">
+    <h3>About Us</h3>
+    <p>We are passionate about creating modern and impactful designs. Our mission is to make every event and business look remarkable through creativity and technology.</p>
+  </section>
+
+  <section class="services" id="services">
+    <h3>Our Services</h3>
+    <div class="cards">
+      <div class="card">
+        <h4>Design</h4>
+        <p>Creative and elegant web designs that attract attention.</p>
+      </div>
+      <div class="card">
+        <h4>Development</h4>
+        <p>Fast, responsive, and high-quality website development.</p>
+      </div>
+      <div class="card">
+        <h4>Branding</h4>
+        <p>Helping your brand stand out with stunning visuals.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery" id="gallery">
+    <h3>Gallery</h3>
+    <div class="images">
+      <img src="https://thumbs.dreamstime.com/b/web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-121903546.jpg.com/300x200" alt="Gallery Image">
+      <img src="https://cdn.pixabay.com/photo/2024/02/05/10/51/web-development-8554218_1280.jpg.com/300x200" alt="Gallery Image">
+      <img src="https://via.placeholder.com/300x200" alt="Gallery Image">
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h3>Contact Us</h3>
+    <p>For any queries or collaborations, reach out to us at <b>sushmasukhik2@gmail.com</b></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Techinical event | Designed by Sushma Sukhi 💫</p>
+  </footer>
+
+</body>
+</html>
